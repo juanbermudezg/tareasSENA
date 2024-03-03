@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interferencia y Ruido en Señales Analógicas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        header {
+            background-color: #fc7323;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #000;
+        }
+        img {
+            max-width: 25%;
+            display: block;
+            margin: 20px auto;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #fc7323;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .waveforms {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Interferencia y Ruido en Señales Analógicas</h1>
+        <p>Creado por: Juan Andres Bermudez <br> Estudiante de Ingeniería Aeronáutica y ADSO <br> Curso de Comunicaciones Analógicas</p>
+        <img src="sena.webp" alt="Escudo del SENA" style="width: 200px; height: auto;">
+    </header>
+    <main>
+        <section>
+            <h2>Señales Analógicas</h2>
+            <p>Las señales analógicas son representaciones de información que varían continuamente en el tiempo y en amplitud. Estas señales se utilizan en una amplia gama de aplicaciones, como audio, video, comunicaciones y control de sistemas.</p>
+            <p>Las señales analógicas pueden ser representadas por diferentes componentes y tomar diversas formas de onda, incluidas las ondas sinusoidales, cuadradas, triangulares y de pulso. Estas formas de onda tienen propiedades únicas que las hacen adecuadas para diferentes tipos de aplicaciones.</p>
+            <p>A continuación, se muestran algunas formas de onda comunes:</p>
+            <ul>
+                <li><strong>Onda Sinusoidal:</strong> Representa una variación suave y continua en el tiempo.</li>
+                <li><strong>Onda Cuadrada:</strong> Tiene una transición rápida entre dos niveles de amplitud fija.</li>
+                <li><strong>Onda Triangular:</strong> Caracterizada por una variación lineal entre dos niveles de amplitud fija.</li>
+                <li><strong>Onda de Pulso:</strong> Se representa por impulsos de corta duración con una amplitud constante.</li>
+            </ul>
+            <p>A continuación, se presentan imágenes ilustrativas de estas formas de onda:</p>
+            <div class="waveforms">
+                <img src="ond1.png" alt="Onda Sinusoidal">
+                <img src="ond2.gif" alt="Onda Cuadrada">
+                <img src="ond3.png" alt="Onda Triangular">
+                <img src="ond4.png" alt="Onda de Pulso">
+            </div>
+        </section>
+        <section>
+            <h2>Introducción a la Interferencia y el Ruido en Señales Analógicas</h2>
+            <p>Las señales analógicas son omnipresentes en nuestro mundo moderno, utilizadas en una amplia gama de aplicaciones que van desde la comunicación hasta la electrónica de potencia. Sin embargo, dos fenómenos inevitables que afectan a estas señales son la interferencia y el ruido. En esta página, exploraremos qué son estos fenómenos, cómo afectan a las señales analógicas y las implicaciones que tienen en diferentes contextos.</p>
+        </section>
+        <section>
+            <h3>¿Qué es la Interferencia?</h3>
+            <p>La interferencia en una señal analógica ocurre cuando una señal no deseada se mezcla con la señal original, alterando su forma de onda y, en consecuencia, la información que lleva. Esta interferencia puede deberse a diversas fuentes, como señales electromagnéticas externas, crosstalk entre cables cercanos o incluso imperfecciones en los componentes electrónicos.</p>
+            <img src="ond5.jpg" alt="Interferencia en señal analógica">
+        </section>
+        <section>
+            <h3>¿Qué es el Ruido?</h3>
+            <p>El ruido en una señal analógica se refiere a las fluctuaciones aleatorias que se suman a la señal original, generando una señal distorsionada. Estas fluctuaciones pueden ser causadas por factores como la agitación térmica en componentes electrónicos, interferencia electromagnética ambiental o incluso limitaciones inherentes en la precisión de los equipos de medición.</p>
+            <img src="ond6.webp" alt="Ruido en señal analógica">
+        </section>
+        <section>
+            <h2>Ventajas y Desventajas de la Interferencia y el Ruido</h2>
+            <h3>Ventajas:</h3>
+            <ol>
+                <li><strong>Seguridad de la Información:</strong> En algunos casos, la interferencia y el ruido pueden utilizarse de manera intencional para encriptar o codificar información, lo que proporciona una capa adicional de seguridad.</li>
+                <li><strong>Detección de Fallas:</strong> En sistemas de control y monitoreo, la presencia de interferencia y ruido anómalos puede indicar la presencia de fallas o problemas en el sistema, permitiendo una respuesta rápida y eficaz.</li>
+            </ol>
+            <h3>Desventajas:</h3>
+            <ol>
+                <li><strong>Degradación de la Calidad de la Señal:</strong> La interferencia y el ruido pueden distorsionar la señal original, lo que resulta en una pérdida de calidad de la información transmitida. Esto puede afectar negativamente la precisión y confiabilidad de los sistemas que dependen de estas señales.</li>
+                <li><strong>Interferencia en Comunicaciones:</strong> En aplicaciones de comunicación, la interferencia y el ruido pueden dificultar la transmisión efectiva de datos, provocando errores y retrasos en la comunicación.</li>
+            </ol>
+            <p>En resumen, mientras que la interferencia y el ruido pueden tener algunas aplicaciones beneficiosas, como la seguridad de la información y la detección de fallas, también presentan desafíos significativos en términos de degradación de la calidad de la señal y dificultades en la comunicación. Es crucial comprender estos fenómenos y aplicar estrategias adecuadas de mitigación para minimizar sus efectos negativos en los sistemas analógicos.</p>
+        </section>
+        <section>
+            <h2>Referencias</h2>
+            <ul>
+                <li>Smith, R. (2005). Fundamentos de Comunicaciones Analógicas. McGraw-Hill.</li>
+                <li>Jones, T. (2010). Señales y Sistemas Analógicos. Prentice Hall.</li>
+                <li>González, M. (2018). Introducción al Ruido en Sistemas Electrónicos. Editorial Universitaria.</li>
+                <li><a href="https://es.wikipedia.org/wiki/Ruido_el%C3%A9ctrico">Wikipedia: Ruido (electrónica)</a></li>
+                <li><a href="https://m.youtube.com/watch?v=iNN5jZqUt9U">Tecnología Electrónica: Ruido en los sistemas de comunicación</a></li>
+                <li><a href="https://www.tutorialspoint.com/analog_communication/analog_communication_noise.htm">Electronics Tutorials: Noise in</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/juanbermudezg">
+        <p>&copy; GitHub @juanbermudezg. Todos los derechos reservados.</p>
+        </a>
+    </footer>
+</body>
+</html>
