@@ -1,0 +1,11 @@
+com\juanbermudez\demo\interfaceService\ItPersonaService.class
+com\juanbermudez\demo\service\TipoPersonaService.class
+com\juanbermudez\demo\modelo\TipoPersona.class
+com\juanbermudez\demo\interfaceService\IpersonaService.class
+com\juanbermudez\demo\interfaces\IPersona.class
+com\juanbermudez\demo\service\PersonaService.class
+com\juanbermudez\demo\interfaces\ITPersona.class
+com\juanbermudez\demo\controler\ControladorTipo.class
+com\juanbermudez\demo\modelo\Persona.class
+com\juanbermudez\demo\CrudApplication.class
+com\juanbermudez\demo\controler\Controlador.class
